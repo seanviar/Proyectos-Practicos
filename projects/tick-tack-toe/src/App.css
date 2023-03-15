@@ -1,0 +1,18 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: 350px;
+}
+.square {
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid rgb(218, 65, 65);
+  height: 100px;
+  width: 100px;
+}
+
+.turno {
+  font-size: 30px;
+}
