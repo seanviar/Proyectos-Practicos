@@ -1,0 +1,27 @@
+.App{ display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(74, 74, 135);
+    color:white;
+    
+  }
+
+.movies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 5px;
+    }
+    
+    
+    .movie{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .root{
+        
+    }
+*{margin:0;}
