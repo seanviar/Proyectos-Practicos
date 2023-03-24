@@ -1,12 +1,25 @@
+*{margin:0;}
+
+.form{
+    display: flex;
+    background-color: #0F638E;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
 .App{ display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: rgb(74, 74, 135);
-    color:white;
+    min-height: 100vh;
+    font-family:sans-serif;
     
   }
 
 .movies{
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
@@ -24,4 +37,3 @@
     .root{
         
     }
-*{margin:0;}

@@ -44,9 +44,9 @@ function App () {
   useEffect(() => { debounceSearch(search) }, [search])
 
   return (
-    <main className='App'>mi app
+    <main className='App'>
       <form action='' className='form' onSubmit={functionSearch}>
-        <input name='search' type='search' onChange={(e) => handleChange(e)} />
+        <input placeholder='busca una pelicula' name='search' type='search' onChange={(e) => handleChange(e)} />
         <button type='submit'> buscar</button>
         <input checked={order} type='checkbox' onChange={() => { handleSort(movies) }} />
       </form>
